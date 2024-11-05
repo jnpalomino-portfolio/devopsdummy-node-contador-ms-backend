@@ -1,4 +1,4 @@
-# **APLICACIÓN DUMMY - HELLO WORLD (Backend)**
+# **APLICACIÓN DUMMY - HELLO WORLD (nodejs - express)**
 
 # Descripción del proyecto
 
