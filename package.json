@@ -7,8 +7,7 @@
     "build": "mkdir -p dist && copyfiles -u 1 src/**/*.js dist && cp package.json dist/",
     "start": "node dist/index.js",
     "dev": "nodemon .",
-    "test": "jest --watchAll",
-    "coverage": "jest --coverage --coverageReporters=lcov"
+    "coverage": "jest --coverage"
   },
   "author": "Stiven Manco",
   "license": "ISC",
@@ -16,6 +15,7 @@
     "axios": "^1.7.9",
     "copyfiles": "^2.4.1",
     "jest": "^29.7.0",
+    "jest-sonar-reporter": "^2.0.0",
     "nodemon": "^3.1.9"
   },
   "dependencies": {
@@ -24,5 +24,10 @@
     "express": "^4.21.1",
     "jest-junit": "^16.0.0",
     "mongoose": "^8.7.3"
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "sonar-report.xml",
+    "indent": 4
   }
 }
