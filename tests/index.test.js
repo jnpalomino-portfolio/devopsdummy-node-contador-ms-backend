@@ -12,7 +12,7 @@ const Contador = require("../models/Contador");
 jest.mock("../models/Contador");
 
 describe("Controlador de Contadores", () => {
-  let mockReq, mockRes, mockNext;
+  let mockReq, mockRes;
 
   beforeEach(() => {
     // Reiniciar mocks antes de cada prueba
@@ -25,7 +25,6 @@ describe("Controlador de Contadores", () => {
       send: jest.fn(),
       status: jest.fn().mockReturnThis(),
     };
-    mockNext = jest.fn();
 
     // Limpiar todos los mocks
     jest.clearAllMocks();
