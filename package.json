@@ -7,7 +7,7 @@
     "build": "mkdir -p dist && copyfiles -u 1 src/**/*.js dist && cp package.json dist/",
     "start": "node dist/index.js",
     "dev": "nodemon .",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage" 
   },
   "author": "Stiven Manco",
   "license": "ISC",
