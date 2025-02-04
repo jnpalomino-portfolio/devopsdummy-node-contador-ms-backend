@@ -1,4 +1,4 @@
-# **APLICACIÓN DUMMY - HELLO WORLD (nodejs - express)**
+# **APLICACIÓN DUMMY - HELLO WORLD (NodeJS - Express)**
 
 # Descripción del proyecto
 
@@ -6,7 +6,7 @@ Este proyecto dummy consiste en una aplicación Backend contenerizada desarrolla
 
 ## Objetivo
 
-El objetivo principal de este proyecto es proporcionar un entorno de prueba para el equipo DevOps. Se utiliza para realizar pruebas de los templates desarrollados en el repositorio ‘ads_pipeline_cicd’. Estas pruebas incluyen:
+El objetivo principal de este proyecto es proporcionar un entorno de prueba para el equipo DevOps. Se utiliza para realizar pruebas de los templates desarrollados en el repositorio ‘devops-pipeline-cicd’. Estas pruebas incluyen:
 
 - Compilación de código.
 - Ejecución de pruebas unitarias.
