@@ -99,7 +99,7 @@ Para desplegar localmente la aplicación Dummy, se pueden seguir dos métodos: s
    ```sh
    docker build -t devopsdummynode:1 .
    ```
-5. Ejecutar el contenedor:
+5. Ejecutar el contenedor: (REVISAR MONGO)
    ```sh
    docker run -p 4000:4000 --env DB_MONGO=mongodb://root:rootpassword@mongo:27017 devopsdummynode:1
    ```
