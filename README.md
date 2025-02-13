@@ -86,6 +86,7 @@ Para desplegar localmente la aplicación Dummy, se pueden seguir dos métodos: s
 
 #### **Pasos de instalación y ejecución**
 1. Abrir Docker Desktop y asegurarse de que esté en ejecución.
+
 2. Clonar el repositorio:
    ```sh
    git clone https://AlcaldiaMedellin@dev.azure.com/AlcaldiaMedellin/DevOps%20Dummy/_git/devopsdummy-node-contador-ms-backend
