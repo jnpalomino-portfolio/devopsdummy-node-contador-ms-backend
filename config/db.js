@@ -10,9 +10,9 @@ const conectarDB = async () => {
             authSource: 'admin'})
         console.log('DB conectada')
     } catch (error) {
-        console.error('❌ Error al conectar a MongoDB:', error.message);
+        console.error('Error al conectar a MongoDB:', error.message);
         console.error('Stack trace:', error.stack);
-        // process.exit(1); <-- Comentado para evitar crash loop
+        process.exit(1);//hace que el pos entre en crahs si está mala la conexión a la base de datos
     }
 }
 module.exports = conectarDB  
