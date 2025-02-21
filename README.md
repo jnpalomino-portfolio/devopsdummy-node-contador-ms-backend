@@ -83,7 +83,7 @@ Para desplegar localmente la aplicación Dummy, se pueden seguir dos métodos: s
 9. (Opcional) Puedes realizar pruebas de inserción de datos en postman:
 
    MÉTODO: POST
-   URL: http://localhost:3001/api/app_dummy
+   URL: http://localhost:3000/api/app_dummy
    BODY:
       {
          "usuario": "karen melissa docker",
@@ -143,7 +143,7 @@ Para desplegar localmente la aplicación Dummy, se pueden seguir dos métodos: s
 9. (Opcional) Puedes realizar pruebas de inserción de datos en postman:
 
    MÉTODO: POST
-   URL: http://localhost:3001/api/app_dummy
+   URL: http://localhost:3000/api/app_dummy
    BODY:
       {
          "usuario": "karen melissa docker",
