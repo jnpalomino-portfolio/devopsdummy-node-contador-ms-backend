@@ -4,17 +4,6 @@
 ## Descripción del proyecto
 Este proyecto dummy consiste en un BackEnd contenerizado desarrollado en `Node JS` usando el framework `Express`, sus pruebas unitarias fueron desarrolladas utilizando `Jest`.
 
-## Objetivo
-
-El objetivo principal de este proyecto es proporcionar un entorno de prueba para el equipo DevOps. Se utiliza para realizar pruebas de los templates desarrollados en el repositorio ‘devops-pipeline-cicd’. Estas pruebas incluyen:
-
-- Compilación de código.
-- Ejecución de pruebas unitarias.
-- Despliegue de imágenes a un container registry.
-- Despliegue de la aplicación en OpenShift.
-
-Este proyecto sirve como un sandbox donde el equipo DevOps puede experimentar y validar el funcionamiento de los flujos de trabajo y plantillas de CI/CD desarrollados para implementaciones más complejas.
-
 ## Funcionamiento
 Este proyecto funciona como Backend del proyecto `holavite` de React, integrando una base de datos Mongo (desplegada en Openshift), estas son las acciones que realiza.
 
